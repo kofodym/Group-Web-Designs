@@ -1,1 +1,1 @@
-A simple design of QR Code
+A simple web design of QR Code
