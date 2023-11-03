@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    gap: 30px;
+}
+
+.text-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 64px;
+    justify-content: space-between;
+}
+
+h1 {
+
+    font-family: 'Nunito', 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Roboto', 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.QRcode {
+    border: 0.2px solid rgba(176, 174, 174, 0.557);
+    border-radius: 15px;
+    position: relative;
+}
+
+.QRcode>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 110px;
+    right: 110px;
+}
+
+.QRcode>div>.material-symbols-outlined {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: rgb(9, 132, 68);
+    border: 1px solid rgb(9, 132, 68);
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 125px;
+    width: 350px;
+}
+
+.input-field {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    height: 35px;
+    /* align-items: center;
+    justify-content: center; */
+
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid rgba(176, 174, 174, 0.557);
+    border-radius: 5px;
+    width: 88%;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.copy-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 10%;
+    border: 0.2px solid rgba(176, 174, 174, 0.557);
+    font-size: 20px;
+}
+
+.copy-icon .fa-copy {
+    text-align: center;
+
+}
+
+button {
+    background-color: rgb(9, 132, 68);
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
